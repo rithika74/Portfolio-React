@@ -1,0 +1,101 @@
+* {
+    background-color: rgb(28, 28, 51);
+    color: whitesmoke;
+    font-family: Poppins, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.pos {
+    position: fixed;
+}
+
+.home {
+    font-size: 36px;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.bg {
+
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+}
+
+.bg li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.bg li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.about {
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.about h1 {
+    font-weight: bolder;
+}
+
+span {
+    color: rgb(165, 40, 185);
+    font-weight: bold;
+}
+
+.work {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 0px 25px 25px 0px;
+    border: 3px solid #431f47;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 0 2px 8px 0 #431f47;
+}
+
+.icon a {
+    cursor: pointer;
+
+}
+
+.skill {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px 25px 0px;
+    border: 3px solid #431f47;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    box-shadow: 0 2px 8px 0 #431f47;
+}
